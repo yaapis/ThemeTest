@@ -11,7 +11,7 @@ return array(
     |
     */
 
-        'path'         => app_path('views/themes'),
+        'path'         => app_path('themes'),
     /*
     |--------------------------------------------------------------------------
     | Path to directory with assets

@@ -14,7 +14,7 @@
 Route::get('/', function()
 {
 
-    Theme::init('default');
+    Theme::init('foo');
     // this will render default app/views/hello view
     return View::make('hello');
 });
@@ -23,7 +23,7 @@ Route::get('/', function()
 Route::get('/welcome', function()
 {
 
-    Theme::init('default');
-    // this will render default app/views/themes/welcome view
+    Theme::init('foo');
+    // this will render default app/themes/welcome view
     return View::make('welcome');
 });
